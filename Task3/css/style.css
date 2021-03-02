@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-page-container {
+    background-image: url(../img/SeaShell.jpg);
+    background-size: cover; /* resizes the bg img to cover the entire container */
+    background-position: center;
+    height: 100vh; /* vertical height takes 100% of the screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Meddon', cursive;
+    color: #412501;
+    font-size: 50px;
+    margin: 0;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #271600;
+    margin: 0;
+}
+
+button {
+    border-radius: 5px;
+    border: 1px solid #271600;
+    background-color: rgba(250, 235, 215, 0);
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding: 10px 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.dark {
+    background-color: #c6b591;
+    padding: 20px;
+}
+
+.light {
+    background-color: #ece1c8;
+    padding: 20px;
+}
+
+.white {
+    padding: 20px;
+}
+
+.little-containers {
+    display: flex;
+}
