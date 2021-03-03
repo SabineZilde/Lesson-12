@@ -1,0 +1,70 @@
+body {
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+#email-field {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid orange;
+    border-bottom: none;
+    padding-left: 10px;
+}
+
+#password-field {
+    width: 250px;
+    height: 30px;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid orange;
+    padding-left: 10px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+}
+
+#remember-me {
+    margin-right: 10px;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#submit-button {
+    background-color: rgb(75, 75, 131);
+    color: white;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(15, 15, 41);
+}
+
+p {
+    color: grey;
+    font-size: 0.75em;
+}
+
+[value="Sign In"] {
+    font-size: 1em;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
