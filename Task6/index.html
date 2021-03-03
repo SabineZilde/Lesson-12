@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task6</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <h1>Good Vibes Form</h1>
+        <div class="inner-container">
+            <p>Tell us something positive that happened to you today</p>
+            <form action="" method="POST">
+                <div class="row-container">
+                    <div class="left">
+                        <label for="name-field">Name</label>
+                    </div>
+                    <div class="right">
+                        <input type="name" id="name-field" name="name" placeholder="Enter your name"
+                            class="input-field">
+                    </div>
+                </div><!-- row-container -->
+                <div class="row-container">
+                    <div class="left">
+                        <label for="email-field">Email</label>
+                    </div>
+                    <div class="right">
+                        <input type="email" id="email-field" name="email" placeholder="Enter your email address"
+                            class="input-field">
+                    </div>
+                </div><!-- row-container -->
+                <div class="row-container">
+                    <div class="left">
+                        <label for="number-field">On a scale of 1-10, how good was it?</label>
+                    </div>
+                    <div class="right">
+                        <input type="number" id="number-field" name="rate" min="1" max="10" step="1"
+                            placeholder="Enter a number between 1 and 10" class="input-field">
+                    </div>
+                </div><!-- row-container -->
+                <div class="row-container">
+                    <div class="left">
+                        <label for="range-field">How much it affected your mood?</label>
+                    </div>
+                    <div class="right">
+                        <div class="range">
+                            <div>Not at all</div>
+                            <input type="range" id="range-field" name="affect" min="1" max="9" step="1">
+                            <div>Very much</div>
+                        </div>
+                    </div>
+                </div><!-- row-container -->
+                <div class="row-container">
+                    <div class="left">
+                        <label for="list-field">Where did it happene?</label>
+                    </div>
+                    <div class="right">
+                        <select id="list-field" name="place" class="input-field-type2">
+                            <option value="home">At home</option>
+                            <option value="school">At school</option>
+                            <option value="garden">In the garden</option>
+                            <option value="street">On the street</option>
+                            <option value="else">Somewhere else</option>
+                        </select>
+                    </div>
+                </div><!-- row-container -->
+                <div class="row-container">
+                    <div class="left">
+                        <div>At what time of day did it happen?</div>
+                    </div>
+                    <div class="right">
+                        <div>
+                            <input type="radio" id="radio-field" name="daypart" value="mor">
+                            <label for="radio-field">Morning</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="radio-field" name="daypart" value="aft">
+                            <label for="radio-field">Afternoon</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="radio-field" name="daypart" value="eve">
+                            <label for="radio-field">Evening</label>
+                        </div>
+                    </div>
+                </div><!-- row-container -->
+                <div class="row-container">
+                    <div class="left">
+                        <div>What emotions did you experience?</div>
+                        <div>(Select all that apply)</div>
+                    </div>
+                    <div class="right">
+                        <div>
+                            <input type="checkbox" id="check-field" name="feel" value="exc">
+                            <label for="check-field">Excited</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="check-field" name="feel" value="hum">
+                            <label for="check-field">Humbled</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="check-field" name="feel" value="ela">
+                            <label for="check-field">Elated</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="check-field" name="feel" value="lov">
+                            <label for="check-field">Loved</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="check-field" name="feel" value="enth">
+                            <label for="check-field">Enthusiastic</label>
+                        </div>
+                    </div>
+                </div><!-- row-container -->
+                <div class="row-container">
+                    <div class="left">
+                        <label for="textarea-field">Please describe your positive experience</label>
+                    </div>
+                    <div class="right">
+                        <textarea id="textarea-field" rows="5" cols="36" name="text"
+                            class="input-field-type3">Enter your experience here...</textarea>
+                    </div>
+                </div><!-- row-container -->
+                <div class="last-row-container">
+                    <input type="submit" value="Submit" class="submit">
+                </div><!-- last-row-container -->
+            </form>
+        </div><!-- inner-container -->
+    </div><!-- main-container -->
+</body>
+
+</html>
