@@ -57,7 +57,7 @@ p {
 .input-field-type3 {
     border-radius: 4px;
     border: 1px solid rgb(27, 95, 102);
-    padding-left: 6px;
+    padding: 5px 6px;
 }
 
 .range {
